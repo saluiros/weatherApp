@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/weatherApp/static/media/bg-app.8b5b3ba9.jpg"
   },
   {
-    "revision": "bf0543e41c4f3302be622d00d636adce",
+    "revision": "208bc0ffa1c5db16e75e6fc7c9ec5342",
     "url": "/weatherApp/index.html"
   }
 ];
