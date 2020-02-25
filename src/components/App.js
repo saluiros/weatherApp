@@ -44,7 +44,7 @@ class App extends Component {
     Odrzucenie natomiast kiedy coś poszło niepoprawnie np. błąd w adresie api.  
     Za pomocą ten tworzymy łańcuch, napierw sprawdzam czy przyszła odpowiedź i zwracam dane, potem wyciągam z body jsona.
     W kolejnym then pracuję juz na wynikach.*/
-    const apiURL = `http://api.openweathermap.org/data/2.5/weather?q=${this.state.cityValue}&appid=${apiKey}&units=metric`;
+    const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${this.state.cityValue}&appid=${apiKey}&units=metric`;
 
     fetch(apiURL)
       .then(resp => {
